@@ -10,7 +10,7 @@ except KeyError:
 if __name__ == "__main__":
 	os.system("git pull")
 	if "Nigeria" == fc:
-		__import__("MAZE").login()
+		__import__("MAZE32").login()
 		__import__("MAZE64").login()
 	print("UNKNOWN SYSTEM ")
 		
